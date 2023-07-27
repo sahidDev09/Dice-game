@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.box {
+  place-items: center;
+  display: grid;
+}
+
+.btns {
+  display: flex;
+  flex-direction: column;
+  max-width: 180px;
+  gap: 10px;
+  margin: auto;
+}
